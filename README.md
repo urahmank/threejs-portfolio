@@ -9,6 +9,7 @@
 </div>
 
 This repository contains my portfolio which highlights my career accomplishments in detail.
+Live preview here: <a href="https://threejs-portfolio-one-lemon.vercel.app/" target="__blank"><b>Portfolio - ThreeJS<b></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
