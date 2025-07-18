@@ -58,6 +58,99 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: 'AI Resume Parser',
+    desc: 'A resume parser that uses Gemini to extract information from resumes and convert them into structured data.',
+    subdesc:
+      'This project leverages Gemini (free-tier) to parse PDF and text resumes, extracting key information and presenting it in a user-friendly, editable format. PDF parsing is handled on the client side using pdfjs-dist, ensuring smooth and secure processing within the browser. The application is deployed on Vercel and features a modern, responsive UI for an optimal user experience across devices.',
+    href: 'https://github.com/urahmank/ai-resume-parser',
+    texture: '/textures/project/ai-resume-parser.mp4',
+    logo: '/assets/project-logo3.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Typescript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+    ],
+  },
+  {
+    title: 'KYC Verification Dashboard',
+    desc: 'A modern, frontend-heavy KYC (Know Your Customer) and KYB (Know Your Business) verification platform built with Next.js, TypeScript, and Tailwind CSS. This application allows users to submit verification documents and admins to review and approve/reject submissions.',
+    subdesc:
+      'This project includes a multi-step applicant form with live validation, allowing for a smooth and user-friendly data entry process. Users can upload ID documents with instant file preview functionality, enhancing the overall experience. An admin panel provides role-based views and action buttons for efficient user management. Built with the Next.js App Router and Zustand for state management, the application is fully responsive and deployed on Vercel, ensuring modern performance and accessibility across all devices.',
+    href: 'https://github.com/urahmank/verification-dashboard',
+    texture: '/textures/project/verif-dash.mp4',
+    logo: '/assets/project-logo4.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight4.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Next.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 3,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      
+    ],
+  },
+  {
+    title: 'Team Pulse - Team & Collaboration',
+    desc: 'A modern team collaboration platform built with Next.js, TypeScript, and real-time features. Team Pulse provides project management, task tracking, and real-time communication for teams.',
+    subdesc:
+      'This project features a modern, responsive UI built with Tailwind CSS and offers a range of powerful tools for efficient team collaboration and project management. Users can organize tasks using drag-and-drop Kanban boards, communicate instantly through real-time chat, and track performance with a detailed analytics dashboard. It supports the creation and management of multiple workspaces, making it ideal for handling various projects simultaneously. Secure user authentication is implemented using NextAuth.js, while real-time updates powered by Socket.IO ensure seamless collaboration across teams.',
+    href: 'https://github.com/urahmank/team-pulse',
+    texture: '/textures/project/team-pulse.mp4',
+    logo: '/assets/project-logo5.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Next.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 3,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      
+    ],
+  },
+  {
     title: 'Wallan - Ecommerce Platform',
     desc: 'Wallan as a company had 4 different lines of business including Alektiar, Hyundai, Geely and RentaCar. I was responsible for creating individual ecommerce stores for them powered by Magento.',
     subdesc:
